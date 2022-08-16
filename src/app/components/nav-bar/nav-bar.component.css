@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: 20px;
+  padding: 10px;
+  margin: 20px;
+  border: black 2px solid;
+}
+
+.nav-h3-mypoke{
+  display: flex;
+
+
+}
+.nav-h3-mypoke h3{
+  margin-right: 10px;
+}
+
+.nav-input {
+
+  width: 400px;
+  height: 20px;
+  border-radius: 20px;
+  background-image:url("/src/assets/img/search.png");
+}
+
+input::placeholder{
+  padding-left: 10px;
+}

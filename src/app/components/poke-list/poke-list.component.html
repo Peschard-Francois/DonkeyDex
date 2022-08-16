@@ -1,0 +1,28 @@
+
+<ul>
+  <li *ngFor=" let pokemon of pokemons ; let index = index;">
+    <div class="pokemon-container">
+      <div class="pokemon-name">
+        <div class="pokemon-title">
+          <h3>#{{pokemon.id}}</h3>
+          <h3>{{pokemon.name}}</h3>
+        </div>
+        <div class="pokemon-type">
+          <h3>{{pokemon.types[0].type.name}}</h3>
+          <h3>{{pokemon.types[1]?.type.name}}</h3>
+        </div>
+      </div>
+      <div class="img-container">
+        <div class="pokemon-favoris">
+          <!--<img alt="" src="/src/assets/img/etoile.png">-->
+        </div>
+        <div class="pokemon-img">
+          <img alt="" [src]="pokemon.sprites.front_shiny">
+        </div>
+      </div>
+    </div>
+
+    <app-poke-item></app-poke-item>
+
+  </li>
+</ul>

@@ -1,0 +1,42 @@
+.pokemon-container{
+
+  display: flex;
+  border: black 2px solid;
+  margin-bottom: 20px;
+}
+.pokemon-title{
+  display: flex;
+
+}
+h3{
+  padding: 10px;
+  margin-left: 10px;
+}
+.pokemon-type{
+  display: flex;
+
+}
+.pokemon-name{
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-img img{
+  width: 100px;
+  height: 100px;
+}
+.pokemon-favoris img{
+  width: 50px;
+  height: 50px;
+}
+.img-container{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+}
+
+li{
+  list-style: none
+;
+}
